@@ -14,11 +14,11 @@ initial state:user
 
 	“你好”
 	
-進入 <hellow> state
+進入 hellow state
 你有三個選擇可以以選，分別為
-*   1.申購資訊<state1>
-*   2.匯率查詢<state4>
-*   3.k線教學<state6>
+*   1.申購資訊（state1）
+*   2.匯率查詢（state4）
+*   3.k線教學（state6）
 	
 並鍵入所需要服務字串
 
@@ -38,13 +38,13 @@ example:
 	
 	"3321"
 	
-即可獲得詳細資訊<state2>
+即可獲得詳細資訊（state2）
 	
 如果想知道更多詳細資訊輸入:
 
 	”想知道更多“
 
-會將個股網址回傳<state3>
+會將個股網址回傳（state3）
 	
 再回到user state
 
@@ -58,17 +58,18 @@ example:
 example:
 	
 	"美金"
-列出當日買進賣出價格<state5>
+列出當日買進賣出價格（state5）
 	
 再回到user state
 	
 <h2 id="overview">k線教學</h2>
+進入（state6）
 各自輸入
 
-	“陽線”<state7>
+	“陽線”（state7）
 或
 
-	“陰線”<state8>
+	“陰線”（state8）
 可得相關圖解
 
 再回到user state
