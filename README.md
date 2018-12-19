@@ -11,8 +11,10 @@ initial state:user
 操作流程
 ================
 輸入
-“你好”
-進入<hellow>state
+
+	“你好”
+	
+進入 <hellow> state
 你有三個選擇可以以選，分別為
 *   1.申購資訊<state1>
 *   2.匯率查詢<state4>
